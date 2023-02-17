@@ -1,0 +1,1 @@
+select substr(md5(title),1,5) as "Titre MD5",m.id as "ID",if(m.id%2=0 and substr(title,1,length(title)) like "%ball%",upper(g.name),g.name) from movie as m join movie_genre as mg on mg.id_movie=m.id join genre as g on g.id=mg.id_genre;

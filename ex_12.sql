@@ -1,0 +1,1 @@
+select distinct substr(zipcode,1,2),count(zipcode) as "Nombre d' utilisateur" from user where zipcode = zipcode group by zipcode;

@@ -1,0 +1,1 @@
+select m.title from movie as m join movie_genre as mg on mg.id_movie=m.id join genre as g on g.id=mg.id_genre where g.id = 12 or g.id=1;

@@ -1,0 +1,1 @@
+select count(title) from movie where (substr(title ,1,2))="Mo";

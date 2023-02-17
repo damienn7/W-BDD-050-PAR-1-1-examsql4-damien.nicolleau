@@ -1,0 +1,1 @@
+select title,duration from movie order by (length(title)) desc,duration desc;

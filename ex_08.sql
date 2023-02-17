@@ -1,0 +1,1 @@
+select name from genre where id<6 or id>12 order by name asc;

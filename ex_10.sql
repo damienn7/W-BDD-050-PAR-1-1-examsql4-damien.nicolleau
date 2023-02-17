@@ -1,0 +1,1 @@
+select d.name as "Nom du distributeur",m.duration as "Duree totale" from movie as m join distributor as d on d.id = m.id_distributor order by d.name asc;

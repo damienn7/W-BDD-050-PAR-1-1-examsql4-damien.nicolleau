@@ -1,0 +1,1 @@
+select count(id) as "Nombre d' utilisateurs",round(avg(year(now()) - year(birthdate))) as "Age moyen" from user;

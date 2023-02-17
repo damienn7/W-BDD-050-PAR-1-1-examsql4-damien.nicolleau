@@ -1,0 +1,1 @@
+select if(substr(email,length(email)-2,3)=".fr",replace(email,".fr",".bzh"),email) as "Meilleurs emails" from user order by email desc;

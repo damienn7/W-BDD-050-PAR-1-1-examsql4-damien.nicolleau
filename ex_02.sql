@@ -1,0 +1,1 @@
+ select zipcode as "Codes postaux" from user where (select count(distinct zipcode) from user)>1 order by zipcode asc;

@@ -1,0 +1,1 @@
+select substr(title,1,5) as "Titres" from movie where id % 2 = 0 and (id<84 and id>42) order by title desc;
